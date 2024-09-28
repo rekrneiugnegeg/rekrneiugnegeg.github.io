@@ -1,3 +1,3 @@
 # Справочник JS фреймворков
 
-[https://rekrneiugnegeg.github.io/](Сайт)
+[Сайт](https://rekrneiugnegeg.github.io/)
