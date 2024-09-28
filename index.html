@@ -10,6 +10,11 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.min.css"
 		/>
+		
+		<link
+			rel="stylesheet"
+			href="sidebar.css"
+		/>
 	</head>
 
 	<body>
@@ -27,11 +32,11 @@
 								<li><a href="./angular.html">Angular</a></li>
 								<li><a href="./react.html">React</a></li>
 								<li><a href="./node.html">Node.js</a></li>
-								<li><a href="./ember.html">Ember js</a></li>
+								<li><a href="./ember.html">Ember.js</a></li>
 							</ul>
 						</details>
 					</li>
-					<li><a href="#">О сайте</a></li>
+					<li><a href="./about.html">О сайте</a></li>
 				</ul>
 			</nav>
 			
@@ -42,38 +47,50 @@
 		</header>
 
 		<main class="container">
-			<section id="AboutJS">
-				<h2>Немного о JavaScript</h2>
-				<p>
-					JavaScript это язык программирования, применяемый в основном для исполнения в браузере.
-					С помощью него вы можете придать своему сайту больше интерактивности и решать такие задачи как
-					<ul>
-						<li>Регистрация и авторизация пользователей</li>
-						<li>Получение обновлений информации без пепрезагрузки страницы</li>
-						<li>Обработка информации пользователя</li>
-						<li>Показывать подсказки при наведении указателя</li>
-					</ul>
-					И это далеко не полный список.
-					А ещё используя некоторые фреймворки можно использовать JavaScript не только в браузере, но при создании бэкенда, desktop и мобильных приложений.
-					Таким образом, JavaScript это один из наиболее важных языков программирования современности.
-				</p>
-			</section>
+			<div id="sidebar">
+				<a href="./index.html"><button class="contrast" style="width:100%">Домашняя</button></a><br><br>
+				<a href="./vue.html"><button class="contrast" style="width:100%">Vue.js</button></a><br><br>
+				<a href="./angular.html"><button class="contrast" style="width:100%">Angular</button></a><br><br>
+				<a href="./react.html"><button class="contrast" style="width:100%">React</button></a><br><br>
+				<a href="./node.html"><button class="contrast" style="width:100%">Node.js</button></a><br><br>
+				<a href="./ember.html"><button class="contrast" style="width:100%">Ember.js</button></a><br><br>
+				<a href="./about.html"><button class="contrast" style="width:100%">О сайте</button></a>
+			</div>
+			
+			<div id="content">
+				<section id="AboutJS">
+					<h2>Немного о JavaScript</h2>
+					<p>
+						JavaScript это язык программирования, применяемый в основном для исполнения в браузере.
+						С помощью него вы можете придать своему сайту больше интерактивности и решать такие задачи как
+						<ul>
+							<li>Регистрация и авторизация пользователей</li>
+							<li>Получение обновлений информации без пепрезагрузки страницы</li>
+							<li>Обработка информации пользователя</li>
+							<li>Показывать подсказки при наведении указателя</li>
+						</ul>
+						И это далеко не полный список.
+						А ещё используя некоторые фреймворки можно использовать JavaScript не только в браузере, но при создании бэкенда, desktop и мобильных приложений.
+						Таким образом, JavaScript это один из наиболее важных языков программирования современности.
+					</p>
+				</section>
 
-			<section id="Frameworks">
-				<h2>Фреймворки</h2>
-				<p>
-					Однако написание скиптов на чистом JS достаточно трудоёмко при больших объёмах.
-					Для решения этой проблемы создаются специальные фреймворки, реализующие наиболее стандартные задачи, возникающие при программировании, а также предоставляют некоторые уникальные возможности.<br>
-					Мы рассмотрим следующие фреймворки:
-					<ul>
-						<li><a href="./vue.html">Vue.js</a></li>
-						<li><a href="./angular.html">Angular</a></li>
-						<li><a href="./react.html">React</a></li>
-						<li><a href="./node.html">Node.js</a></li>
-						<li><a href="./ember.html">Ember js</a></li>
-					</ul>
-				</p>
-			</section>
+				<section id="Frameworks">
+					<h2>Фреймворки</h2>
+					<p>
+						Однако написание скиптов на чистом JS достаточно трудоёмко при больших объёмах.
+						Для решения этой проблемы создаются специальные фреймворки, реализующие наиболее стандартные задачи, возникающие при программировании, а также предоставляют некоторые уникальные возможности.<br>
+						Мы рассмотрим следующие фреймворки:
+						<ul>
+							<li><a href="./vue.html">Vue.js</a></li>
+							<li><a href="./angular.html">Angular</a></li>
+							<li><a href="./react.html">React</a></li>
+							<li><a href="./node.html">Node.js</a></li>
+							<li><a href="./ember.html">Ember.js</a></li>
+						</ul>
+					</p>
+				</section>
+			</div>
 		</main>
 
 		<footer class="container">
